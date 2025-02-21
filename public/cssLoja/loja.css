@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(255, 231, 206);
+    margin: 0;
+}
+
+header {
+    background-color: white;
+    font-size: 55px;
+    padding: 20px;
+    font-family: Calibri;
+    text-align: center;
+}
+
+.secao_sony {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border: solid white;
+}
+
+.produtos_sony {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border: solid white;
+}
+
+.nome_sony {
+    font-family: Arial;
+    text-decoration: underline;
+}
+
+.preco_sony {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+img {
+    width: 200px;
+    transition: width 0.3s;
+    box-shadow: 5px 5px 5px black;
+}
+
+img:hover {
+    width: 250px;
+}
