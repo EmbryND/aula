@@ -11,7 +11,7 @@ header {
     text-align: center;
 }
 
-.secao_sony {
+.secao_playstation {
     background-color: darkblue;
     color: white;
     text-align: center;
@@ -22,7 +22,29 @@ header {
     border: solid white;
 }
 
-.produtos_sony {
+.secao_xbox {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border: solid white;
+}
+
+.secao_nintendo {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border: solid white;
+}
+
+.produtos_playstation {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 1fr;
@@ -38,12 +60,66 @@ header {
     border: solid white;
 }
 
-.nome_sony {
+.produtos_xbox {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border: solid white;
+}
+
+.produtos_nintendo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 20px;
+    grid-row-gap: 0px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    border: solid white;
+}
+
+.nome_playstation {
     font-family: Arial;
     text-decoration: underline;
 }
 
-.preco_sony {
+.nome_xbox {
+    font-family: Arial;
+    text-decoration: underline;
+}
+
+.nome_nintendo {
+    font-family: Arial;
+    text-decoration: underline;
+}
+
+.preco_playstation {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.preco_xbox {
+    font-weight: bolder;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.preco_nintendo {
     font-weight: bolder;
     text-decoration: underline;
     font-size: 30px;
