@@ -1,13 +1,15 @@
 body {
-    background-color: rgb(255, 231, 206);
+    background-color: black;
     margin: 0;
 }
 
 header {
     background-color: white;
-    font-size: 55px;
+    font-size: 15px;
     padding: 20px;
-    font-family: Calibri;
+    font-family: "Sigmar", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     text-align: center;
 }
 
@@ -20,6 +22,10 @@ header {
     margin-right: 5%;
     border-radius: 10px;
     border: solid white;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .secao_xbox {
@@ -31,6 +37,10 @@ header {
     margin-right: 5%;
     border-radius: 10px;
     border: solid white;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .secao_nintendo {
@@ -42,6 +52,10 @@ header {
     margin-right: 5%;
     border-radius: 10px;
     border: solid white;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .produtos_playstation {
@@ -93,44 +107,62 @@ header {
 }
 
 .nome_playstation {
-    font-family: Arial;
-    text-decoration: underline;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .nome_xbox {
-    font-family: Arial;
-    text-decoration: underline;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .nome_nintendo {
-    font-family: Arial;
-    text-decoration: underline;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .preco_playstation {
-    font-weight: bolder;
-    text-decoration: underline;
-    font-size: 30px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: larger;
 }
 
 .preco_xbox {
-    font-weight: bolder;
-    text-decoration: underline;
-    font-size: 30px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: larger;
 }
 
 .preco_nintendo {
-    font-weight: bolder;
-    text-decoration: underline;
-    font-size: 30px;
+    font-family: "Oswald", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: larger;
 }
 
-img {
+.icones_produtos {
     width: 200px;
     transition: width 0.3s;
     box-shadow: 5px 5px 5px black;
 }
 
-img:hover {
+.icone_secao {
+    width: 200px;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+.icones_produtos:hover {
     width: 250px;
 }
