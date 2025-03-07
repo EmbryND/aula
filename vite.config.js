@@ -1,3 +1,4 @@
+input: ['resources/sass/app.scss', 'resources/js/app.js']
 import { defineConfig } from 'vite';
 import laravel from 'laravel-vite-plugin';
 

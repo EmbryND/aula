@@ -1,168 +1,86 @@
 body {
-    background-color: black;
-    margin: 0;
+    background-color: #121212;
+    color: white;
+    font-family: 'Oswald', sans-serif;
 }
 
 header {
-    background-color: white;
-    font-size: 15px;
+    background-color: #1f1f1f;
     padding: 20px;
-    font-family: "Sigmar", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+    font-family: 'Sigmar', sans-serif;
     text-align: center;
+    border-bottom: 2px solid #444;
+}
+
+.icone_pagina {
+    width: 90px;
+    margin-right: 10px;
+}
+
+.fs-4 {
+    color: #FFD700; /* Gold color */
+}
+
+.secao_playstation, .secao_xbox, .secao_nintendo {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    margin: 20px 0;
+    font-family: 'Sigmar', sans-serif;
 }
 
 .secao_playstation {
-    background-color: darkblue;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 10px;
-    border: solid white;
-    font-family: "Oswald", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
+    background-color: #0077FF;
 }
 
 .secao_xbox {
-    background-color: green;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 10px;
-    border: solid white;
-    font-family: "Oswald", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
+    background-color: #28a745;
 }
 
 .secao_nintendo {
-    background-color: red;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 10px;
-    border: solid white;
-    font-family: "Oswald", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
+    background-color: #e60012;
 }
 
-.produtos_playstation {
+.produtos_playstation, .produtos_xbox, .produtos_nintendo {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px;
-    background-color: darkblue;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 10px;
-    border: solid white;
-}
-
-.produtos_xbox {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px;
-    background-color: green;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 10px;
-    border: solid white;
-}
-
-.produtos_nintendo {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 0px;
-    background-color: red;
-    color: white;
-    text-align: center;
-    padding: 5px;
-    margin-left: 5%;
-    margin-right: 5%;
-    border-radius: 10px;
-    border: solid white;
-}
-
-.nome_playstation {
-    font-family: "Oswald", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.nome_xbox {
-    font-family: "Oswald", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.nome_nintendo {
-    font-family: "Oswald", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-}
-
-.preco_playstation {
-    font-family: "Oswald", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-size: larger;
-}
-
-.preco_xbox {
-    font-family: "Oswald", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-size: larger;
-}
-
-.preco_nintendo {
-    font-family: "Oswald", serif;
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-size: larger;
-}
-
-.icones_produtos {
-    width: 200px;
-    transition: width 0.3s;
-    box-shadow: 5px 5px 5px black;
-}
-
-.icone_secao {
-    width: 200px;
-    margin-right: 10px;
+    gap: 20px;
     padding: 10px;
+    margin: 0 5%;
 }
 
-.icones_produtos:hover {
-    width: 250px;
+.produto_item {
+    background-color: #333;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.produto_item img {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 10px;
+    transition: transform 0.3s;
+}
+
+.produto_item img:hover {
+    transform: scale(1.1);
+}
+
+.nome_playstation, .nome_xbox, .nome_nintendo {
+    font-weight: 600;
+    font-size: 18px;
+    color: #FFD700;
+}
+
+.preco_playstation, .preco_xbox, .preco_nintendo {
+    font-weight: 700;
+    font-size: 20px;
+    color: #FF6F00;
+}
+
+img {
+    width: 280px;
 }
